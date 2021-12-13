@@ -17,13 +17,13 @@
   <script type="text/babel">
     //React Code here
     //first div
-    var yellowDiv = React.createElement('div', { class: "yellowDiv", style: { display: "flex", 'flex-flow': "row wrap" } }, React.createElement('div', null, null), React.createElement('div', null, null))
+    var yellowDiv = React.createElement('div', { className: "yellowDiv", style: { display: "flex", 'flexFlow': "row wrap" } }, React.createElement('div', null, null), React.createElement('div', null, null))
     //second div
-    var pinkDiv = React.createElement('div', { class: "pinkDiv", style: { display: "flex", 'flex-flow': "row wrap" } }, React.createElement('div', null, null))
+    var pinkDiv = React.createElement('div', { className: "pinkDiv", style: { display: "flex", 'flexFlow': "row wrap" } }, React.createElement('div', null, null))
     //third div
-    var blueDiv = React.createElement('div', { class: "blueDiv", style: { display: "flex", 'flex-flow': "row wrap" } }, React.createElement('div', null, null), React.createElement('div', null, null), React.createElement('div', null, null))
+    var blueDiv = React.createElement('div', { className: "blueDiv", style: { display: "flex", 'flexFlow': "row wrap" } }, React.createElement('div', null, null), React.createElement('div', null, null), React.createElement('div', null, null))
     //main div to wrap all three divs
-    var mainDiv = React.createElement('div', { class: "mainDiv", style: { display: "flex", 'flex-flow': "column wrap" } }, yellowDiv, pinkDiv, blueDiv)
+    var mainDiv = React.createElement('div', { className: "mainDiv", style: { display: "flex", 'flexFlow': "column wrap" } }, yellowDiv, pinkDiv, blueDiv)
 
     ReactDOM.render(mainDiv, document.getElementById('root'));
 
