@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App">
       <img src={employee.profileImg} className="profImage" alt="Profile_image" />
-      <h1 className="Name">{employee.name}</h1>
-      <p>Location</p>
-      <h2>{employee.location}</h2>
-      <p>Blood Group</p>
-      <h2>{employee.bloodGroup}</h2>
-      <p>Age</p>
-      <h2>{employee.age}</h2>
+      <h1 className="employeeName">{employee.name}</h1>
+      <p className="employeeAtt">Location</p>
+      <h2 className="employeeVal">{employee.location}</h2>
+      <p className="employeeAtt">Blood Group</p>
+      <h2 className="employeeVal">{employee.bloodGroup}</h2>
+      <p className="employeeAtt">Age</p>
+      <h2 className="employeeVal">{employee.age}</h2>
 
     </div>
   );

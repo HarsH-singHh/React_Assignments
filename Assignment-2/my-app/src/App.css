@@ -9,7 +9,7 @@
   margin-top: 20px;
 }
 
-p{
+.employeeAtt{
   width: 40vmin;
   text-align: left;
   margin: auto;
@@ -19,7 +19,7 @@ p{
   margin-top: 10px;
 }
 
-h1{
+.employeeName{
   width: 40vmin;
   text-align: left;
   margin: auto;
@@ -27,7 +27,7 @@ h1{
   font-size: 5vmin;
 }
 
-h2{
+.employeeVal{
   width: 40vmin;
   text-align: left;
   margin: auto;
