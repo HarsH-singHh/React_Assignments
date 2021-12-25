@@ -16,56 +16,67 @@ body {
 } 
 
 .nav-bar{
+  margin: 10px;
   height: 50px;
   position:sticky;
   top: 0;
   text-align: left;
   border: 1px solid black;
-  border-bottom: 3px solid black;
   padding: 0px 50px;
   padding-bottom: 10px;
-  background: white;
+  background: rgb(221, 219, 219);
 }
 
 .insta-logo{
   height: 30px;
   width: auto;
   margin-top: 15px;
-  border-radius: 50%;
 }
 .logo_name{
-  color: green;
-  font-size: 20px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  font-family: cursive;
+  height: 30px;
+  width: auto;
   position:absolute;
   left: 100px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .camera{
   height: 30px;
   width: auto;
   position:absolute;
-  right: 50px;
+  right: 200px;
   margin-top: 15px;
-  border-radius: 20px;
 }
+
+.post-button{
+  position:absolute;
+  right: 20px;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: black;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.post-button a{
+  text-decoration: none;
+  color: white;
+}
+
 
 .users{
   width: 40vw;
   margin: 20px;
   margin: 20px auto;
   text-align: left;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
 }
 
 .prof-image{
-  height: 250px;
+  height: 300px;
   width: 100%;
 }
 .user-details{
@@ -95,9 +106,10 @@ body {
 
 .actions{
   text-align: left;
+  padding-top: 5px;
 }
 
-.like-image, .share-image{
+.like-image, .share-image, .comm{
   height: 30px;
   width: auto; 
   margin: 3px;
@@ -106,7 +118,7 @@ body {
 
 .date{
   float: right;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-right: 20px;
   color: gray;
   font-weight: 700;
