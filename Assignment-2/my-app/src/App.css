@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  width: auto;
+}
+
+.profImage{
+  height: 40vmin;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.employeeAtt{
+  width: 40vmin;
+  text-align: left;
+  margin: auto;
+  color: gray;
+  font-size: 3vmin;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.employeeName{
+  width: 40vmin;
+  text-align: left;
+  margin: auto;
+  color: #2ba7d9;
+  font-size: 5vmin;
+}
+
+.employeeVal{
+  width: 40vmin;
+  text-align: left;
+  margin: auto;
+}
