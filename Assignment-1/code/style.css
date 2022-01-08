@@ -1,1 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mainDiv{
+    height: 100vh;
+    border: 1px solid black;
+}
 
+.yellowDiv{
+    flex: 1 0 auto;
+    margin: 5px;
+    border: 2px solid yellow;
+}
+.yellowDiv div{
+    margin: 5px;
+    background-color: yellow;
+    flex-basis: 100%;
+}
+
+.pinkDiv{
+    flex: 1 0 auto;
+    margin: 5px;
+    border: 2px solid pink;
+}
+
+.pinkDiv div{
+    margin: 5px;
+    background-color: pink;
+    flex-basis: 100%;
+}
+
+.blueDiv{
+    flex: 1 0 auto;
+    margin: 5px;
+    border: 2px solid blue;
+}
+
+.blueDiv div{
+    margin: 5px;
+    background-color: blue;
+    flex-basis: 100%;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .yellowDiv div{
+        flex-basis: 100%;
+    }
+    
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .yellowDiv div{
+        flex-basis: 48%;
+    }
+    
+}
+
+@media only screen and (min-width:1024px){
+    .yellowDiv div{
+        flex-basis: 49%;
+    }
+    .blueDiv div{
+        flex : 1 0 auto;
+    }
+}
