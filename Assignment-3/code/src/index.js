@@ -3,10 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+/*
+const employee={ 
+  Name:'Alan Ford',
+  empid:'00005152',
+  Appointment:'9:00 (24-05-2016)',
+  Email:'alan.form@email.nl',
+  Phone:'+31123456789',
+  Status:'In Progress',
+  Door:'Mark',
+  Time:'10:30 (25-05-2016)',
+  prodimg:'https://www.w3schools.com/howto/img_avatar.png',
+  prodname:'Boltaart Bosbessen',
+  prodDesc:'Overheerlijke boltaart met Bosbessen uit de keuken van de bijenkorf.'
+}
+*/
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /*employee={employee}*/ />
   </React.StrictMode>,
   document.getElementById('root')
 );
